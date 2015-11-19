@@ -1,0 +1,27 @@
+{
+  "name": "jenerate",
+  "version": "0.0.1",
+  "description": "Framework-agnostic, customizable Javascript module generator.",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jakemmarsh/jenerate.git"
+  },
+  "keywords": [
+    "javascript",
+    "module",
+    "generator"
+  ],
+  "author": "Jake Marsh <jakemmarsh@gmail.com> (http://jakemmarsh.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jakemmarsh/jenerate/issues"
+  },
+  "homepage": "https://github.com/jakemmarsh/jenerate"
+}
