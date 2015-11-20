@@ -2,7 +2,7 @@
   "name": "jenerate",
   "version": "0.0.1",
   "description": "Framework-agnostic, customizable Javascript module generator.",
-  "main": "dist/index.js",
+  "main": "lib/index.js",
   "directories": {
     "test": "test"
   },
