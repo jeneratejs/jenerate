@@ -3,10 +3,12 @@
   "version": "0.0.1",
   "description": "Framework-agnostic, customizable Javascript module generator.",
   "author": "Jake Marsh <jakemmarsh@gmail.com> (http://jakemmarsh.com)",
-  "contributors": [{
-    "name": "J. Ky Marsh",
-    "email": "jkymarsh@gmail.com"
-  }],
+  "contributors": [
+    {
+      "name": "J. Ky Marsh",
+      "email": "jkymarsh@gmail.com"
+    }
+  ],
   "bin": {
     "jenerate": "lib/index.js"
   },
@@ -30,7 +32,8 @@
     "generator"
   ],
   "dependencies": {
-    "babel-core": "^6.2.1"
+    "babel-core": "^6.2.1",
+    "yargs": "^3.30.0"
   },
   "preferGlobal": true,
   "private": true,
