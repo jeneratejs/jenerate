@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/jakemmarsh/jenerate/issues"
   },
-  "homepage": "https://github.com/jakemmarsh/jenerate"
+  "homepage": "https://github.com/jakemmarsh/jenerate",
+  "dependencies": {
+    "babel-core": "^6.2.1"
+  }
 }
