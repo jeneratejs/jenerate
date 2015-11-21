@@ -15,6 +15,7 @@
   "scripts": {
     "dev": "babel lib --watch --out-dir dist",
     "test": "test",
+    "lint": "eslint lib/**/*.js test/**/*.js",
     "build": "babel lib --out-dir dist"
   },
   "directories": {
@@ -39,5 +40,8 @@
   },
   "preferGlobal": true,
   "private": true,
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^1.10.1"
+  }
 }
