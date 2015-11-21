@@ -1,5 +1,4 @@
-jenerate [![Build Status](https://travis-ci.org/jeneratejs/jenerate.svg)](https://travis-ci.org/jeneratejs/jenerate)
-====================================================================================================================
+# jenerate [![Build Status](https://travis-ci.org/jeneratejs/jenerate.svg)](https://travis-ci.org/jeneratejs/jenerate)
 
 A framework-agnostic, customizable Javascript module generator.
 
