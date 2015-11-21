@@ -10,10 +10,12 @@
     }
   ],
   "bin": {
-    "jenerate": "lib/index.js"
+    "jenerate": "dist/index.js"
   },
   "scripts": {
-    "test": "test"
+    "dev": "babel lib --watch --out-dir dist",
+    "test": "test",
+    "prepublish": "babel lib --out-dir dist"
   },
   "directories": {
     "test": "test"
