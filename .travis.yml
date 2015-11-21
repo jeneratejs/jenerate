@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+- '0.12'
+install:
+- npm install
+before_script:
+- npm run lint
+script:
+- npm run build
+deploy:
+  provider: npm
+  on:
+    branch: master
+  email: jakemmarsh@gmail.com
+  api_key:
+    secure: FOCXEiy7vm5/LnbtoY0CGoG3YsSQ/0d0gIhNHDVIr9gyz2Bh3Dd1fu06uYw/auWkQ1FYZmnTnMO4CY5QqIx8rDfdiNtBQeofL1Zova651LOrMEHNg2pCnqbbJCPOFrxCFAK8ma5edNWTnV76aYmNy2xdQ82h5IgXu0+fnastQwCnqza1wB81tpGu8aodRwL5Y9PV1os1jJBzTmpv6HF3VzzfHtY/1oyR0OfX1WMx3bQJLixO+L1wFaEGsefuOZBvKv6i/6X65StzHY0DJR31armu67TNTt7C2JLfdXpI0+9Ozu/7yKeTmRk7ebycUvQ8Dxg4a1BGxqHp8028/2GkEObXp7m9i2nAnnxqqgNGRErZAbrP+//+oy3Fi8V5N0hAh3Rp8ZROGNT3Syef8LeUtlNUZsIwOLb+UmMtXUOMK4Gc+Ioqn6hEol+uaCPkvT11gLTLvTAEH4/ZqRr1GzaGeCkOtACvUuxNK6IHHke1ggH5VjL3oH3lnOjPRYj7RQO1VLLy5DyzFWQvtGL7cyB73/rJht8rqv5lPamcNP7Xc7qsZnhiHcIc7dDzV+/cmBl3liXEcIQ/6rqmrWEl1j6uV4j09IGI4LmBkv3fankKOiJhUKlbcsYooZk5iahN5nmfSU0I6Da72yow6tYhtBTZ3U21MzZXvXIukRxqfj/vU9g=
