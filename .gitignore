@@ -27,6 +27,6 @@ build/Release
 node_modules
 
 # Build directory
-dist/
+dist
 
 .DS_Store
