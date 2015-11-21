@@ -10,7 +10,7 @@ npm install --save-dev jenerate
 
 **To run:**
 ```bash
-jenerate jen <module type> <arguments>
+jenerate <command> <arguments>
 ```
 
 ##### Arguments
