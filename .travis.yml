@@ -5,6 +5,7 @@ install:
 - npm install
 before_script:
 - npm run lint
+- npm install -g babel-core
 script:
 - npm run build
 deploy:
