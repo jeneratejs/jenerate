@@ -4,6 +4,9 @@ node_js:
 branches:
   only:
     - master
+cache:
+  directories:
+    - node_modules
 install:
 - npm install
 before_script:
