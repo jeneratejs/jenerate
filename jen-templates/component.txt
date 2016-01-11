@@ -10,7 +10,7 @@ const <% name %> = React.createClass({
   render() {
     return (
       <div>
-        {<% test %>}
+        {this.<% test %>()}
       </div>
     );
   }
