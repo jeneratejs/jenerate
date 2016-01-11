@@ -1,4 +1,4 @@
-# jenerate [![Build Status](https://travis-ci.org/jeneratejs/jenerate.svg)](https://travis-ci.org/jeneratejs/jenerate)
+# jenerate [![Build Status](https://travis-ci.org/jeneratejs/jenerate.svg)](https://travis-ci.org/jeneratejs/jenerate) [![Dependency Status](https://david-dm.org/jeneratejs/jenerate.svg)](https://david-dm.org/jeneratejs/jenerate)
 
 A framework-agnostic, customizable Javascript module generator.
 
@@ -30,13 +30,13 @@ module.exports = {
   component: [
     {
       template: ReactJen.component,
-      fileNameSchema: '<<ComponentName>>.js',
-      outputDir: '../../js/components/'
+      fileNameSchema: '<% ComponentName %>.js',
+      outputDir: './js/components/'
     },
     {
       template: ReactJen.componentTest,
-      fileNameSchema: '<<ComponentName>>.test.js',
-      outputDir: '../../test/'
+      fileNameSchema: '<% ComponentName %>.test.js',
+      outputDir: './test/components/'
     }
   ]
 
