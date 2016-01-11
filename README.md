@@ -32,13 +32,13 @@ export default {
   component: [
     {
       template: ReactJen.component,
-      fileNameSchema: '<<ComponentName>>.js',
-      outputDir: '../../js/components/'
+      fileNameSchema: '<% ComponentName %>.js',
+      outputDir: './js/components/'
     },
     {
       template: ReactJen.componentTest,
-      fileNameSchema: '<<ComponentName>>.test.js',
-      outputDir: '../../test/'
+      fileNameSchema: '<% ComponentName %>.test.js',
+      outputDir: './test/components/'
     }
   ]
 
