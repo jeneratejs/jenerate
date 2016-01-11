@@ -23,11 +23,9 @@ jenerate <command> <arguments>
 
 **jenerate.conf.js:**
 ```js
-'use strict';
+var ReactJen = require('react-jen');
 
-import ReactJen from 'react-jen';
-
-export default {
+module.exports = {
 
   component: [
     {
