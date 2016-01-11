@@ -44,3 +44,5 @@ export default {
 
 };
 ```
+
+**Note:** When specifying `outputDir`, this directory must already exist to prevent access errors. It can still be an empty directory.

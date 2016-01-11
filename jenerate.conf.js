@@ -1,14 +1,14 @@
 module.exports = {
   boobs: [
     {
-      template: '../../jen-templates/component.js',
+      template: './jen-templates/component.js',
       fileNameSchema: '<% name %>.js',
-      outputDir: '../../js/components/'
+      outputDir: './js/components/'
     },
     {
-      template: '../../jen-templates/tests/component.js',
+      template: './jen-templates/test/component.js',
       fileNameSchema: '<% name %>_test.js',
-      outputDir: '../../test/components/'
+      outputDir: './test/components/'
     }
   ]
 };

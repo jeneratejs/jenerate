@@ -1,0 +1,16 @@
+'use strict';
+
+import React       from 'react';
+import TestUtils   from 'react-addons-test-utils';
+
+import <% name %>  from '../../app/js/components/<% name %>';
+
+describe('Component: <% name %>', function() {
+
+  let rendered;
+
+  beforeEach(function() {
+    rendered = TestUtils.renderIntoDocument(<<% name %> />);
+  });
+
+});
