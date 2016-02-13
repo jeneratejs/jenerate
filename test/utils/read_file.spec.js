@@ -1,5 +1,5 @@
 import chai     from 'chai';
-import readFile from '../../lib/utils/read_file';
+// import readFile from '../../lib/utils/read_file';
 
 chai.should();
 

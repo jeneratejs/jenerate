@@ -1,5 +1,5 @@
 import chai from 'chai';
-import jen  from '../../lib/handlers/jen';
+// import jen  from '../../lib/handlers/jen';
 
 chai.should();
 
