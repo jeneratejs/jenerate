@@ -3,8 +3,8 @@
     "node": true,
     "es6": true
   },
-  ecmaFeatures: {
-    modules: true
+  "parserOptions": {
+    "sourceType": "module"
   },
   "rules": {
     "indent": [2, 2],
