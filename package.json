@@ -38,7 +38,7 @@
   ],
   "dependencies": {
     "async": "^1.5.2",
-    "yargs": "^3.30.0"
+    "yargs": "^4.1.0"
   },
   "preferGlobal": true,
   "private": true,
