@@ -1,4 +1,4 @@
-# jenerate [![Build Status](https://travis-ci.org/jeneratejs/jenerate.svg)](https://travis-ci.org/jeneratejs/jenerate) [![Dependency Status](https://david-dm.org/jeneratejs/jenerate.svg)](https://david-dm.org/jeneratejs/jenerate)
+# jenerate [![Build Status](https://travis-ci.org/jeneratejs/jenerate.svg)](https://travis-ci.org/jeneratejs/jenerate) [![Dependency Status](https://david-dm.org/jeneratejs/jenerate.svg)](https://david-dm.org/jeneratejs/jenerate) [![devDependency Status](https://david-dm.org/jeneratejs/jenerate/dev-status.svg)](https://david-dm.org/jeneratejs/jenerate#info=devDependencies)
 
 A framework-agnostic, customizable Javascript module generator.
 
