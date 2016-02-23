@@ -41,7 +41,7 @@
     "yargs": "^3.30.0"
   },
   "preferGlobal": true,
-  "private": true,
+  "private": false,
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.2.0",
